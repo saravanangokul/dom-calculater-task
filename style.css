@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: sans-serif;
+    outline: none;
+}
+#title{
+    position: absolute;
+    top: 10px;
+    font-weight: bolder;
+
+}
+#description{
+    position: absolute;
+    top:70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+
+}
+.calculator{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,7em);
+    box-shadow: inset 2px 0px 5px rgb(0,0,0,.26),
+                      5px 5px 12px rgb(0,0,0,.26);
+    
+    padding: 1.5em; 
+    border-radius: 5em; 
+    margin-bottom: 2em; 
+                     
+
+}
+#result{
+    grid-column: span 4;
+    height: 10vh;
+    border-radius: 1em;
+    margin: .5em;
+    width: 11em;
+    font-size: 38px;
+    padding-right: .7em;
+    text-align-last:right;
+    box-shadow: inset 3px 3px 10px rgb(0,0,0,.26),
+    4px 4px 10px rgb(0,0,0,.26);
+    border-style: none;
+    font-weight: bolder; 
+
+}
+.button, .button2, .button3{
+    border-radius: 50%;
+    margin: 10px;
+    width: auto;
+    height:3em;
+    border-style: none;
+    box-shadow: inset 4px 4px 10px rgb(0,0,0,.26),
+                      4px 4px 10px rgb(0,0,0,.26);   
+    font-size: 1em;
+    font-weight: bolder;                                     
+    
+} 
+.button1{
+    grid-column: span 2;
+    border-radius: 40%;
+    height:4em;
+    margin: px;
+    border: none;
+    box-shadow: inset 4px 4px 10px rgb(0,0,0,.26),
+                      4px 4px 10px rgb(0,0,0,.26);
+    font-weight: bold; 
+    font-size: 1em;
+    
+}
